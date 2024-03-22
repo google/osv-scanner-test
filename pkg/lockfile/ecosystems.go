@@ -6,7 +6,6 @@ func KnownEcosystems() []Ecosystem {
 	return []Ecosystem{
 		NpmEcosystem,
 		NuGetEcosystem,
-		CargoEcosystem,
 		BundlerEcosystem,
 		ComposerEcosystem,
 		GoEcosystem,

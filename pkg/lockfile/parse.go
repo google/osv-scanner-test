@@ -19,7 +19,6 @@ func FindParser(pathToLockfile string, parseAs string) (PackageDetailsParser, st
 // this is an optimisation and read-only
 var parsers = map[string]PackageDetailsParser{
 	"buildscript-gradle.lockfile": ParseGradleLock,
-	"Cargo.lock":                  ParseCargoLock,
 	"composer.lock":               ParseComposerLock,
 	"conan.lock":                  ParseConanLock,
 	"Gemfile.lock":                ParseGemfileLock,
@@ -29,9 +28,7 @@ var parsers = map[string]PackageDetailsParser{
 	"Pipfile.lock":                ParsePipenvLock,
 	"package-lock.json":           ParseNpmLock,
 	"packages.lock.json":          ParseNuGetLock,
-	"pdm.lock":                    ParsePdmLock,
 	"pnpm-lock.yaml":              ParsePnpmLock,
-	"poetry.lock":                 ParsePoetryLock,
 	"pom.xml":                     ParseMavenLock,
 	"pubspec.lock":                ParsePubspecLock,
 	"renv.lock":                   ParseRenvLock,
