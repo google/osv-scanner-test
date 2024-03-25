@@ -1,4 +1,5 @@
 package lockfile
+//test
 
 import (
 	"bufio"
