@@ -3,7 +3,7 @@ package grouper
 import (
 	"testing"
 
-	"google3/third_party/golang/cmp/cmp"
+	"github.com/google/go-cmp/cmp"
 	"github.com/google/osv-scanner-test/pkg/models"
 )
 

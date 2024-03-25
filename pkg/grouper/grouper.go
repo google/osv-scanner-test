@@ -3,8 +3,8 @@ package grouper
 import (
 	"sort"
 
-	"google3/third_party/golang/go_exp/maps/maps"
-	"google3/third_party/golang/go_exp/slices/slices"
+	"golang.org/x/exp/maps"
+	"golang.org/x/exp/slices"
 
 	"github.com/google/osv-scanner-test/pkg/models"
 )
