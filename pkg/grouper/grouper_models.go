@@ -1,6 +1,6 @@
 package grouper
 
-import "github.com/google/osv-scanner/pkg/models"
+import "github.com/google/osv-scanner-test/pkg/models"
 
 type IDAliases struct {
 	ID      string
