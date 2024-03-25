@@ -1,10 +1,12 @@
 module github.com/google/osv-scanner-test
 
-go 1.21.6
+go 1.21.8
 
 require (
+	github.com/google/go-cmp v0.6.0
 	github.com/package-url/packageurl-go v0.1.2
-	golang.org/x/mod v0.14.0
+	golang.org/x/exp v0.0.0-20240318143956-a85f2c67cd81
+	golang.org/x/mod v0.16.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
