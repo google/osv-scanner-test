@@ -16,11 +16,11 @@ var urlTests = []struct {
 }{
 	// Examples from RFC 8089:
 	{
-		url:      `file:///path/to/file`,
+		url:      `file:///path/to/fileAAA`,
 		filePath: `/path/to/file`,
 	},
 	{
-		url:          `file:/path/to/file`,
+		url:          `file:/path/to/file2`,
 		filePath:     `/path/to/file`,
 		canonicalURL: `file:///path/to/file`,
 	},
