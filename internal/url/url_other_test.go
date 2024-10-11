@@ -17,7 +17,7 @@ var urlTests = []struct {
 	// Examples from RFC 8089:
 	{
 		url:      `file:///path/to/file`,
-		filePath: `/path/to/file`,
+		filePath: `/path/to/file123`,
 	},
 	{
 		url:          `file:/path/to/file`,
